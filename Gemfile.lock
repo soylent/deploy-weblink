@@ -1,0 +1,26 @@
+GEM
+  remote: https://rubygems.org/
+  remote: https://gem.fury.io/soylent/
+  specs:
+    em-websocket (0.5.2)
+      eventmachine (>= 0.12.9)
+      http_parser.rb (~> 0.6.0)
+    eventmachine (1.2.7)
+    http_parser.rb (0.6.0)
+    proxxxy (2.0.0.pre.dev4)
+      eventmachine (~> 1.2)
+    weblink (1.0.0.pre.rc15)
+      em-websocket (~> 0.5)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  proxxxy (~> 2.0.0.pre.dev)!
+  weblink (~> 1.0.0.pre.rc1)!
+
+RUBY VERSION
+   ruby 2.7.1p83
+
+BUNDLED WITH
+   2.1.4

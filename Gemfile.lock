@@ -9,7 +9,7 @@ GEM
     http_parser.rb (0.6.0)
     proxxxy (2.0.0.pre.dev4)
       eventmachine (~> 1.2)
-    weblink (1.0.0.pre.rc15)
+    weblink (1.1.0)
       em-websocket (~> 0.5)
 
 PLATFORMS
@@ -17,7 +17,7 @@ PLATFORMS
 
 DEPENDENCIES
   proxxxy (~> 2.0.0.pre.dev)!
-  weblink (~> 1.0.0.pre.rc1)!
+  weblink (~> 1.0)!
 
 RUBY VERSION
    ruby 2.7.1p83

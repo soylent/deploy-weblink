@@ -2,22 +2,24 @@ GEM
   remote: https://rubygems.org/
   remote: https://gem.fury.io/soylent/
   specs:
-    em-websocket (0.5.2)
+    em-websocket (0.5.3)
       eventmachine (>= 0.12.9)
-      http_parser.rb (~> 0.6.0)
+      http_parser.rb (~> 0)
     eventmachine (1.2.7)
-    http_parser.rb (0.6.0)
+    http_parser.rb (0.8.0)
     proxxxy (2.0.0.pre.dev4)
       eventmachine (~> 1.2)
-    weblink (1.1.0)
+    weblink (1.2.0)
       em-websocket (~> 0.5)
+      webrick (~> 1.7)
+    webrick (1.7.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   proxxxy (~> 2.0.0.pre.dev)!
-  weblink (~> 1.0)!
+  weblink (~> 1.2)
 
 RUBY VERSION
    ruby 2.7.1p83

@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/soylent/weblink.git
+  revision: ae330ba5193bf31a34b91179452328fd29bf52b3
+  specs:
+    weblink (1.2.0)
+      em-websocket (~> 0.5)
+      webrick (~> 1.7)
+
 GEM
   remote: https://rubygems.org/
   remote: https://gem.fury.io/soylent/
@@ -7,22 +15,19 @@ GEM
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
     http_parser.rb (0.8.0)
-    proxxxy (2.0.0.pre.dev4)
+    proxxy (2.0.0.pre.dev4)
       eventmachine (~> 1.2)
-    weblink (1.2.0)
-      em-websocket (~> 0.5)
-      webrick (~> 1.7)
-    webrick (1.7.0)
+    webrick (1.8.1)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  proxxxy (~> 2.0.0.pre.dev)!
-  weblink (~> 1.2)
+  proxxy (~> 2.0.0.pre.dev)!
+  weblink!
 
 RUBY VERSION
-   ruby 2.7.1p83
+   ruby 2.6.10p210
 
 BUNDLED WITH
    2.1.4

@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '~> 2.7.0'
+ruby '~> 2.6.0'
 
-gem 'proxxxy', '~> 2.0.0.pre.dev', source: 'https://gem.fury.io/soylent/'
-gem 'weblink', '~> 1.2'
+gem 'proxxy', '~> 2.0.0.pre.dev', source: 'https://gem.fury.io/soylent/'
+gem 'weblink', github: 'soylent/weblink'

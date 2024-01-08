@@ -24,14 +24,14 @@ GEM
     webrick (1.8.1)
 
 PLATFORMS
-  x64-mingw-ucrt
+  ruby
 
 DEPENDENCIES
   proxxy!
   weblink!
 
 RUBY VERSION
-   ruby 3.2.2p53
+   ruby 2.6.10p210
 
 BUNDLED WITH
-   2.4.10
+   2.1.4

@@ -1,12 +1,12 @@
 GIT
-  remote: https://github.com/soylent/proxxy.git
+  remote: https://github.com/michaelfeil/proxxy.git
   revision: 13fde7e47fa8a3d4367d8dedf2b53d8d68922953
   specs:
     proxxy (2.0.0.pre.dev4)
       eventmachine (~> 1.2)
 
 GIT
-  remote: https://github.com/soylent/weblink.git
+  remote: https://github.com/michaelfeil/weblink.git
   revision: ae330ba5193bf31a34b91179452328fd29bf52b3
   specs:
     weblink (1.2.0)

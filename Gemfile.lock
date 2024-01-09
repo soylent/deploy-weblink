@@ -1,13 +1,13 @@
 GIT
   remote: https://github.com/michaelfeil/proxxy.git
-  revision: 13fde7e47fa8a3d4367d8dedf2b53d8d68922953
+  revision: 6ac2a5e5e0192bd4c5237bf6074bff92833a5826
   specs:
     proxxy (2.0.0.pre.dev4)
       eventmachine (~> 1.2)
 
 GIT
   remote: https://github.com/michaelfeil/weblink.git
-  revision: 506072a138284996dfb28c5b2947d02793a077a7
+  revision: cbb6c542b510975ffbdbb8ce9acc293c1116eeb0
   specs:
     weblink (1.2.0)
       em-websocket (~> 0.5)

@@ -29,3 +29,9 @@ PLATFORMS
 DEPENDENCIES
   proxxy!
   weblink!
+
+RUBY VERSION
+   ruby 3.0.6p216
+
+BUNDLED WITH
+   2.5.4

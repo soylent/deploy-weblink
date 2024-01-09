@@ -7,7 +7,7 @@ GIT
 
 GIT
   remote: https://github.com/michaelfeil/weblink.git
-  revision: ae330ba5193bf31a34b91179452328fd29bf52b3
+  revision: ca70a96e8bf9e67f4968222df41ef65c3e292eb2
   specs:
     weblink (1.2.0)
       em-websocket (~> 0.5)

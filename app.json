@@ -1,7 +1,7 @@
 {
   "name": "weblink",
   "description": "weblink server",
-  "stack": "heroku-22",
+  "stack": "heroku-20",
   "website": "https://github.com/michaelfeil/deploy-weblink",
   "repository": "https://github.com/michaelfeil/deploy-weblink",
   "keywords": ["proxy"]

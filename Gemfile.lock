@@ -1,17 +1,9 @@
 GIT
   remote: https://github.com/soylent/proxxy.git
-  revision: 13fde7e47fa8a3d4367d8dedf2b53d8d68922953
+  revision: 20e88672219c48eb159f1c803e1a296599aba63a
   specs:
     proxxy (2.0.0.pre.dev4)
       eventmachine (~> 1.2)
-
-GIT
-  remote: https://github.com/soylent/weblink.git
-  revision: ae330ba5193bf31a34b91179452328fd29bf52b3
-  specs:
-    weblink (1.2.0)
-      em-websocket (~> 0.5)
-      webrick (~> 1.7)
 
 GEM
   remote: https://rubygems.org/
@@ -21,14 +13,15 @@ GEM
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
     http_parser.rb (0.8.0)
-    webrick (1.9.1)
+    weblink (1.3.0)
+      em-websocket (~> 0.5)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   proxxy!
-  weblink!
+  weblink
 
 RUBY VERSION
    ruby 3.3.0p0

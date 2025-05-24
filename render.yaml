@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: weblink
+    runtime: ruby
+    plan: free
+    buildCommand: bundle install
+    startCommand: weblink --server --port $PORT
+    branch: main
+    healthCheckPath: /healthcheck

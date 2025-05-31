@@ -8,7 +8,15 @@ There are easy ways to run your own instance of weblink server.
 
    Deployment configuration is defined in `render.yaml`.
 
-   [![Deploy](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/soylent/deploy-weblink/tree/main)
+   [Deploy to Render](https://render.com/deploy?repo=https://github.com/soylent/deploy-weblink/tree/main)
+
+1. Deploying to Koyeb
+
+   This option is completely free.
+
+   Enter the URL of this repo if it is not populated.
+
+   [Deploy to Koyeb](https://app.koyeb.com/deploy?name=weblink&repository=soylent%2Fdeploy-weblink&branch=main&instance_type=free&ports=8080%3Bhttp%3B%2F)
 
 1. Deploying to Heroku
 
@@ -16,13 +24,13 @@ There are easy ways to run your own instance of weblink server.
 
    Deployment configuration is defined in `app.json`.
 
-   [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/soylent/deploy-weblink/tree/main)
+   [Deploy to Heroku](https://heroku.com/deploy?template=https://github.com/soylent/deploy-weblink/tree/main)
 
 To use your new server, add the `server` param to the weblink URL that you
 open on your phone. Example:
 
 ```
-http://172.20.10.2:8080/?server=wss://<your-app-name>.onrender.com
+http://172.20.10.2:8080/?server=wss://<your-weblink>
 ```
 
 ## Troubleshooting

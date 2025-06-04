@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/soylent/proxxy.git
-  revision: 20e88672219c48eb159f1c803e1a296599aba63a
+  revision: 0bc016cd68df521cea69ca6103be63f77e0ad48d
   specs:
     proxxy (2.0.0.pre.dev4)
       eventmachine (~> 1.2)
